@@ -10,8 +10,8 @@
     "slides:preview:history": "marp --preview slides/02-history.md",
     "slides:preview:general": "marp --preview slides/03-general-knowledge.md",
     "slides:preview:ip": "marp --preview slides/04-intellectual-property.md",
-    "slides:build:html": "marp slides/ -o slides/output/ --html",
-    "slides:build:pdf": "marp slides/ -o slides/output/ --pdf"
+    "slides:build:html": "marp slides/ -o slides/html/ --html",
+    "slides:build:pdf": "marp slides/ -o slides/html/ --pdf"
   },
   "devDependencies": {
     "@marp-team/marp-cli": "^4.1.0"

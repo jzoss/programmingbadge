@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Merit Badge Slides</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #003f87 0%, #c6093b 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 50px;
+            max-width: 800px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .subtitle {
+            text-align: center;
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+
+        .slides-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .slide-link {
+            background: rgba(255, 255, 255, 0.15);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 12px;
+            padding: 20px 25px;
+            text-decoration: none;
+            color: white;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .slide-link:hover {
+            background: rgba(255, 255, 255, 0.25);
+            border-color: rgba(255, 255, 255, 0.5);
+            transform: translateX(10px);
+        }
+
+        .slide-number {
+            font-size: 1.5rem;
+            font-weight: bold;
+            min-width: 40px;
+        }
+
+        .slide-info {
+            flex: 1;
+        }
+
+        .slide-title {
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .slide-desc {
+            font-size: 0.95rem;
+            opacity: 0.85;
+        }
+
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            opacity: 0.7;
+            font-size: 0.9rem;
+        }
+
+        .instructions {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 30px;
+            font-size: 0.95rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏅 Programming Merit Badge</h1>
+        <p class="subtitle">Teaching Slides — BSA Requirements 1–4</p>
+
+        <div class="instructions">
+            <strong>💡 How to use:</strong> Click any slide deck below to open. Use arrow keys (← →) or click to navigate between slides. Press F11 for fullscreen mode.
+        </div>
+
+        <div class="slides-list">
+            <a href="00-intro.html" class="slide-link">
+                <div class="slide-number">🚀</div>
+                <div class="slide-info">
+                    <div class="slide-title">Introduction</div>
+                    <div class="slide-desc">Welcome, what is programming, today's roadmap (7 slides)</div>
+                </div>
+            </a>
+
+            <a href="01-safety.html" class="slide-link">
+                <div class="slide-number">1️⃣</div>
+                <div class="slide-info">
+                    <div class="slide-title">Requirement 1: Safety</div>
+                    <div class="slide-desc">Digital safety, RSI, eyestrain, ergonomics, stretching (13 slides)</div>
+                </div>
+            </a>
+
+            <a href="02-history.html" class="slide-link">
+                <div class="slide-number">2️⃣</div>
+                <div class="slide-info">
+                    <div class="slide-title">Requirement 2: History of Programming</div>
+                    <div class="slide-desc">Ada Lovelace to today, major milestones, fun facts (12 slides)</div>
+                </div>
+            </a>
+
+            <a href="03-general-knowledge.html" class="slide-link">
+                <div class="slide-number">3️⃣</div>
+                <div class="slide-info">
+                    <div class="slide-title">Requirement 3: General Knowledge</div>
+                    <div class="slide-desc">5 popular languages, programmed devices around you (14 slides)</div>
+                </div>
+            </a>
+
+            <a href="04-intellectual-property.html" class="slide-link">
+                <div class="slide-number">4️⃣</div>
+                <div class="slide-info">
+                    <div class="slide-title">Requirement 4: Intellectual Property</div>
+                    <div class="slide-desc">Copyright, patents, licensing, open source vs commercial (16 slides)</div>
+                </div>
+            </a>
+        </div>
+
+        <div class="footer">
+            <p>Created for Scouts aged 12–17 | Navigate with arrow keys</p>
+            <p style="margin-top: 10px;">📂 <a href="../../README.md" style="color: white;">Back to Main README</a></p>
+        </div>
+    </div>
+</body>
+</html>
