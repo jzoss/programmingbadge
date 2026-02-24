@@ -1,0 +1,19 @@
+{
+  "name": "programming-merit-badge",
+  "version": "1.0.0",
+  "description": "BSA Programming Merit Badge teaching kit — slides & starter code",
+  "private": true,
+  "scripts": {
+    "slides:preview": "marp --preview slides/",
+    "slides:preview:intro": "marp --preview slides/00-intro.md",
+    "slides:preview:safety": "marp --preview slides/01-safety.md",
+    "slides:preview:history": "marp --preview slides/02-history.md",
+    "slides:preview:general": "marp --preview slides/03-general-knowledge.md",
+    "slides:preview:ip": "marp --preview slides/04-intellectual-property.md",
+    "slides:build:html": "marp slides/ -o slides/output/ --html",
+    "slides:build:pdf": "marp slides/ -o slides/output/ --pdf"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.1.0"
+  }
+}
