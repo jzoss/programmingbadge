@@ -393,9 +393,14 @@ Discuss with your counselor:
 
 # 💻 Requirement 5: Projects!
 
+### First: Demo Walkthrough 🎱
+We'll walk through a **Magic 8-Ball** program together to learn the pattern:
+**INPUT → COMPUTATION → DECISIONS → OUTPUT**
+
+### Then: Your Three Projects!
 You'll write programs in **three different languages**:
-1. 🐍 **Python** — Temperature Converter
-2. 🌐 **JavaScript** — Adventure Quiz Game
-3. 🧩 **Scratch** — Grade Calculator
+1. 🐍 **Python** — Temperature Converter (`projects/python/`)
+2. 🌐 **JavaScript** — Adventure Quest (`projects/javascript/`)
+3. 🧩 **Scratch** — Grade Calculator (`projects/scratch/`)
 
 Let's code! 🚀
