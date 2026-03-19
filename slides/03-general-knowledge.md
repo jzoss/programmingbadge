@@ -6,6 +6,7 @@ footer: "🏅 Programming Merit Badge — Requirement 3: General Knowledge"
 style: |
   section {
     font-size: 28px;
+    overflow: auto !important;
   }
   h1 {
     color: #003f87;
@@ -22,6 +23,15 @@ style: |
   }
   code {
     font-size: 22px;
+  }
+  section.compact {
+    font-size: 23px;
+  }
+  section.compact table {
+    font-size: 20px;
+  }
+  section.compact pre, section.compact code {
+    font-size: 18px;
   }
 ---
 
@@ -40,6 +50,8 @@ style: |
 **(b)** Describe **three different programmed devices** you rely on every day.
 
 ---
+
+<!-- _class: compact -->
 
 # 🐍 Language #1: Python
 
@@ -62,6 +74,8 @@ print(f"Hello, {name}! Welcome to programming!")
 
 ---
 
+<!-- _class: compact -->
+
 # 🌐 Language #2: JavaScript
 
 ### "The Language of the Web"
@@ -82,6 +96,8 @@ document.write("Hello, " + name + "! Welcome!");
 **Who uses it:** Every website ever! Plus: Facebook, Uber, Airbnb, Discord
 
 ---
+
+<!-- _class: compact -->
 
 # ☕ Language #3: Java
 
@@ -107,6 +123,8 @@ public class Hello {
 
 ---
 
+<!-- _class: compact -->
+
 # ⚡ Language #4: C++
 
 ### "The Speed Demon"
@@ -131,6 +149,8 @@ int main() {
 
 ---
 
+<!-- _class: compact -->
+
 # 🍎 Language #5: Swift
 
 ### "The Apple Language"
@@ -152,6 +172,29 @@ print("Hello, \(name)! Welcome to Swift!")
 
 ---
 
+<!-- _class: compact -->
+
+# 🎮 Language #6: C# (.NET)
+
+### "The Microsoft All-Rounder"
+
+**Industries:** Game Development, Enterprise Software, Web Applications
+
+**Why it's popular:**
+- Created by Microsoft in 2000 as part of the **.NET** platform
+- The go-to language for **Unity** (world's most popular game engine)
+- Also powers **MonoGame** — used to build *Stardew Valley*, *Celeste*, and *Bastion*
+- Great for Windows apps, web APIs (ASP.NET), and enterprise systems
+
+**Example — What does this do?**
+```csharp
+Console.WriteLine("Hello, World!");
+```
+
+**Who uses it:** Microsoft, Unity Technologies, Stack Overflow, Stardew Valley (ConcernedApe)
+
+---
+
 # 📊 Language Comparison
 
 | Language | Main Industry | Best For | Difficulty |
@@ -161,9 +204,10 @@ print("Hello, \(name)! Welcome to Swift!")
 | ☕ Java | Enterprise, Android | Big business apps, Android | ⭐⭐⭐ Medium-Hard |
 | ⚡ C++ | Games, Systems | Game engines, performance-critical | ⭐⭐⭐⭐ Hard |
 | 🍎 Swift | iOS Apps | iPhone/iPad apps | ⭐⭐ Medium |
+| 🎮 C# | Games, Enterprise, Web | Unity/MonoGame games, web APIs | ⭐⭐ Medium |
 
 ### Notice:
-All five print "Hello, World!" — but the **syntax** (how you write it) is different in each!
+All six print "Hello, World!" — but the **syntax** (how you write it) is different in each!
 
 ---
 
@@ -174,6 +218,8 @@ All five print "Hello, World!" — but the **syntax** (how you write it) is diff
 Let's look at three devices you probably rely on...
 
 ---
+
+<!-- _class: compact -->
 
 # 📱 Device #1: Smartphone
 
@@ -194,6 +240,8 @@ Let's look at three devices you probably rely on...
 
 ---
 
+<!-- _class: compact -->
+
 # 🎮 Device #2: Gaming Console / PC
 
 ### What's programmed in your Xbox, PlayStation, Switch, or gaming PC?
@@ -210,6 +258,8 @@ Let's look at three devices you probably rely on...
 **A modern game like Fortnite or Minecraft has millions of lines of code!**
 
 ---
+
+<!-- _class: compact -->
 
 # 🚗 Device #3: Modern Car
 
@@ -241,6 +291,8 @@ Let's look at three devices you probably rely on...
 > **Everything with a "smart" in front of it is programmed!**
 
 ---
+
+<!-- _class: compact -->
 
 # ✏️ Activity Time!
 
@@ -283,3 +335,5 @@ Discuss with your counselor:
 ## ⚖️ Intellectual Property
 
 Who owns software? What's the difference between a license and owning something? Let's find out! 🔍
+
+### [➡️ Continue to Requirement 4: Intellectual Property →](04-intellectual-property.html)

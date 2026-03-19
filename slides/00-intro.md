@@ -6,6 +6,7 @@ footer: "🏅 Programming Merit Badge"
 style: |
   section {
     font-size: 28px;
+    overflow: auto !important;
   }
   h1 {
     color: #003f87;
@@ -26,6 +27,15 @@ style: |
   }
   .emoji-big {
     font-size: 64px;
+  }
+  section.compact {
+    font-size: 23px;
+  }
+  section.compact table {
+    font-size: 20px;
+  }
+  section.compact pre {
+    font-size: 18px;
   }
 ---
 
@@ -106,4 +116,6 @@ Computers are FAST but LITERAL — they do exactly what you tell them!
 **Up first:** Requirement 1 — Safety
 
 Get ready to learn how to take care of yourself while coding! ⛑️
+
+### [➡️ Continue to Requirement 1: Safety →](01-safety.html)
 

@@ -6,6 +6,7 @@ footer: "🏅 Programming Merit Badge — Requirement 4: Intellectual Property"
 style: |
   section {
     font-size: 28px;
+    overflow: auto !important;
   }
   h1 {
     color: #003f87;
@@ -24,6 +25,12 @@ style: |
     border-left: 4px solid #c6093b;
     padding-left: 16px;
     font-style: italic;
+  }
+  section.compact {
+    font-size: 23px;
+  }
+  section.compact table {
+    font-size: 20px;
   }
 ---
 
@@ -72,6 +79,8 @@ Let's look at each one and how it applies to software...
 
 ---
 
+<!-- _class: compact -->
+
 # © Copyright
 
 ### What it protects:
@@ -91,6 +100,8 @@ The **actual code** you write — the specific words and structure.
 > **Analogy:** Two people can both write a recipe for chocolate chip cookies 🍪 — copyright protects the SPECIFIC recipe, not the idea of cookies.
 
 ---
+
+<!-- _class: compact -->
 
 # 📜 Patent
 
@@ -112,6 +123,8 @@ A **new invention or process** — the unique WAY something works.
 
 ---
 
+<!-- _class: compact -->
+
 # 🤫 Trade Secret
 
 ### What it protects:
@@ -132,6 +145,8 @@ A **new invention or process** — the unique WAY something works.
 > **Analogy:** A secret family recipe 🤫 — it's valuable BECAUSE nobody else knows it.
 
 ---
+
+<!-- _class: compact -->
 
 # ™ Trademark
 
@@ -169,7 +184,7 @@ A **new invention or process** — the unique WAY something works.
 
 ---
 
-# 🎬 The Netflix Analogy
+# 🎬 Licensing: The Netflix Analogy
 
 This is the easiest way to understand it:
 
@@ -179,6 +194,10 @@ This is the easiest way to understand it:
 - You can lend it to a friend
 - You can sell it at a garage sale
 - If the store closes, you still have your DVD
+
+---
+
+# 🎬 Licensing: The Netflix Analogy (cont.)
 
 ### 📱 Licensing (Netflix subscription):
 - You have **permission** to watch while you pay
@@ -221,6 +240,8 @@ Let's explore each one...
 
 ---
 
+<!-- _class: compact -->
+
 # 💰 Commercial Software
 
 ### What it is:
@@ -241,6 +262,8 @@ Software you **pay money** to use. The source code is **private**.
 - ✅ Regular updates included
 
 ---
+
+<!-- _class: compact -->
 
 # 🆓 Freeware
 
@@ -263,6 +286,8 @@ Software that is **free to use**, but the source code is usually **not available
 - ⚠️ Company can stop offering it anytime
 
 ---
+
+<!-- _class: compact -->
 
 # 🔓 Open Source Software
 
@@ -312,7 +337,10 @@ Software where the **source code is available to everyone**. You can see it, mod
 **Legal reasons:**
 - Software piracy (illegal copying) can result in **fines up to $250,000** 😱
 - Companies CAN track illegal copies
-- Your school/employer can get in trouble too
+
+---
+
+# 🤝 Why Respect the Terms? (cont.)
 
 **Practical reasons:**
 - Pirated software often contains **viruses and malware** 🦠
@@ -320,6 +348,8 @@ Software where the **source code is available to everyone**. You can see it, mod
 - No customer support when things break
 
 ---
+
+<!-- _class: compact -->
 
 # 🏴‍☠️ Don't Be a Software Pirate!
 

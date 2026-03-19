@@ -6,6 +6,7 @@ footer: "🏅 Programming Merit Badge — Requirement 2: History"
 style: |
   section {
     font-size: 28px;
+    overflow: auto !important;
   }
   h1 {
     color: #003f87;
@@ -22,6 +23,15 @@ style: |
   }
   table {
     font-size: 24px;
+  }
+  section.compact {
+    font-size: 23px;
+  }
+  section.compact table {
+    font-size: 20px;
+  }
+  section.compact pre {
+    font-size: 18px;
   }
 ---
 
@@ -57,7 +67,7 @@ Let's travel through time! ⏰
 
 ---
 
-# 🏗️ The 1940s–1950s: First Computers & Machine Code
+# 🏗️ The 1940s: First Computers & Machine Code
 
 ### First-Generation Programming: Machine Code
 - **1940s:** First electronic computers (ENIAC, 1945) were programmed by **physically rewiring** cables and flipping switches! 😱
@@ -67,7 +77,10 @@ Let's travel through time! ⏰
   ```
 - Only experts could do this — it was incredibly hard and error-prone
 
-### ⭐ Milestone #1: Assembly Language (~1949)
+---
+
+# ⭐ Milestone #1: Assembly Language (~1949)
+
 - Used short **mnemonics** instead of binary:
   ```
   MOV AL, 61h    (instead of 10110000 01100001)
@@ -76,7 +89,7 @@ Let's travel through time! ⏰
 
 ---
 
-# 🚀 The 1950s: High-Level Languages Are Born
+# 🚀 The 1950s: FORTRAN
 
 ### ⭐ Milestone #2: FORTRAN (1957)
 
@@ -90,6 +103,10 @@ Let's travel through time! ⏰
   END PROGRAM HELLO
   ```
 
+---
+
+# 🚀 The 1950s: COBOL
+
 ### COBOL (1959)
 - Created by **Grace Hopper** (a Navy Admiral! ⚓)
 - Designed for **business** applications
@@ -99,12 +116,18 @@ Let's travel through time! ⏰
 
 ---
 
-# 🔧 The 1960s–1970s: Building Blocks
+# 🔧 The 1960s: BASIC
 
 ### BASIC (1964)
 - Designed at Dartmouth College to teach **beginners**
 - Made programming accessible to students for the first time
 - Microsoft was founded when Bill Gates & Paul Allen wrote a BASIC interpreter!
+
+---
+
+<!-- _class: compact -->
+
+# 🔧 The 1970s: The C Language
 
 ### ⭐ Milestone #3: C Language (1972)
 - Created by **Dennis Ritchie** at Bell Labs
@@ -122,7 +145,7 @@ Let's travel through time! ⏰
 
 ---
 
-# 🌐 The 1980s–1990s: OOP & the Web
+# 🌐 The 1980s–1990s: OOP & New Languages
 
 ### C++ (1983)
 - Added **Object-Oriented Programming** (OOP) to C
@@ -135,11 +158,17 @@ Let's travel through time! ⏰
   print("Hello, World!")
   ```
 
-### ⭐ Milestone #4: Java (1995) ☕
+---
+
+# ⭐ Milestone #4: Java (1995) ☕
+
 - **"Write once, run anywhere"** — works on any device with a Java Virtual Machine
 - Became the language for Android apps and big enterprise systems
+- One of the most widely-used languages in history
 
 ---
+
+<!-- _class: compact -->
 
 # 🌍 The 1990s: The Web Changes Everything
 
@@ -160,6 +189,8 @@ Let's travel through time! ⏰
 
 ---
 
+<!-- _class: compact -->
+
 # 📱 The 2000s–Today: Mobile & Beyond
 
 ### Swift (2014) 🍎
@@ -178,6 +209,8 @@ Let's travel through time! ⏰
 - 🎮 **Game development** — C#, C++, Lua
 
 ---
+
+<!-- _class: compact -->
 
 # 📊 Timeline Summary
 
@@ -229,3 +262,5 @@ Discuss with your counselor:
 ## 🌍 General Knowledge
 
 What languages are popular today, and what devices around you are programmed? 🤔
+
+### [➡️ Continue to Requirement 3: General Knowledge →](03-general-knowledge.html)

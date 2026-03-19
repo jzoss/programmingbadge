@@ -6,6 +6,7 @@ footer: "🏅 Programming Merit Badge — Requirement 1: Safety"
 style: |
   section {
     font-size: 28px;
+    overflow: auto !important;
   }
   h1 {
     color: #003f87;
@@ -24,6 +25,12 @@ style: |
     border-left: 4px solid #c6093b;
     padding-left: 16px;
     font-style: italic;
+  }
+  section.compact {
+    font-size: 23px;
+  }
+  section.compact table {
+    font-size: 20px;
   }
 ---
 
@@ -93,7 +100,7 @@ Watch out for these symptoms after coding sessions:
 
 ---
 
-# 🛡️ Preventing RSI
+# 🛡️ Preventing RSI — Take Breaks!
 
 ### The **20-20-20 Break Rule** (adapted for movement!)
 
@@ -102,13 +109,19 @@ Every **20 minutes**:
 - 🤸 **Stretch** your hands and wrists
 - 🚶 Stand up and **move around** every hour
 
-### Good Habits:
+---
+
+# 🛡️ Preventing RSI — Good Habits
+
+### Daily Coding Habits:
 - Keep your wrists **straight** (not bent up or down)
 - Don't **pound** the keys — type gently
 - Use **keyboard shortcuts** to reduce mouse use
 - Switch hands with the mouse sometimes
 
 ---
+
+<!-- _class: compact -->
 
 # 🖥️ Ergonomic Setup
 
@@ -150,6 +163,8 @@ The average person blinks **15-20 times per minute** normally, but only **3-4 ti
 
 ---
 
+<!-- _class: compact -->
+
 # 👁️ The 20-20-20 Rule for Eyes
 
 Every **20 minutes**, look at something **20 feet away** for **20 seconds**.
@@ -167,16 +182,21 @@ Every **20 minutes**, look at something **20 feet away** for **20 seconds**.
 
 ---
 
-# 🏋️ Let's Stretch! (Do This Together!)
+# 🏋️ Let's Stretch! — Hands & Wrists
 
-### Hand & Wrist Stretches:
+### Hand & Wrist Stretches (Do This Together!):
 
 1. **Prayer stretch** 🙏 — Press palms together, hold 15 sec
 2. **Fist clench** ✊ — Make a fist, then spread fingers wide (×10)
 3. **Wrist circles** 🔄 — Rotate wrists slowly in circles (×10 each way)
 4. **Finger spread** 🖐️ — Spread fingers as wide as you can, hold 5 sec (×5)
 
-### Neck & Shoulders:
+---
+
+# 🏋️ Let's Stretch! — Neck & Shoulders
+
+### Neck & Shoulder Stretches (Do This Together!):
+
 5. **Shoulder rolls** — Forward ×10, backward ×10
 6. **Neck tilts** — Ear to shoulder, hold 10 sec each side
 7. **Look up!** — Tilt head back gently, hold 10 sec
@@ -185,19 +205,23 @@ Every **20 minutes**, look at something **20 feet away** for **20 seconds**.
 
 ---
 
-# 🩹 First Aid Review
+# 🩹 First Aid Review — R.I.C.E.
 
 If someone has an RSI flare-up or injury while coding:
 
 ### **R.I.C.E.** Method:
 | Letter | Action | What to Do |
-|--------|--------|-----------|
+|--------|--------|----------|
 | **R** | Rest | Stop the activity immediately |
 | **I** | Ice | Apply ice pack for 20 min (wrap in cloth!) |
 | **C** | Compress | Light wrap with bandage if swollen |
 | **E** | Elevate | Raise the hurt area above heart level |
 
-### When to Get Help:
+---
+
+# 🩹 First Aid Review — When to Get Help
+
+### See a doctor if:
 - Pain lasts more than a few days
 - Numbness or tingling won't go away
 - You can't grip things normally
@@ -223,3 +247,5 @@ Talk with your counselor about these questions:
 ## 📜 History of Programming
 
 How did we get from room-sized computers to smartphones? Let's find out! 🚀
+
+### [➡️ Continue to Requirement 2: History →](02-history.html)
