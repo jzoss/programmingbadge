@@ -14,6 +14,19 @@ A grade calculator built in Scratch! It asks for test scores, computes the avera
 
 ## Getting Started
 
+### Option A: Load the Pre-Built Project File (Recommended!)
+
+1. Go to [scratch.mit.edu](https://scratch.mit.edu)
+2. Click **"Create"** to open the editor
+3. Go to **File → Load from your computer**
+4. Select the `grade_calculator.sb3` file from this folder
+5. Click the **green flag** ▶️ to run it!
+6. Look for the **TODO comments** on the blocks — those are your challenges!
+
+> **Tip:** To see comments, look for the little yellow note icons attached to some blocks. Click them to expand!
+
+### Option B: Build It from Scratch
+
 1. Go to [scratch.mit.edu](https://scratch.mit.edu)
 2. Click **"Create"** to start a new project
 3. Follow the step-by-step instructions below!
